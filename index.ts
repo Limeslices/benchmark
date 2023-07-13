@@ -22,7 +22,7 @@ const main = async () => {
     const comparisons = await compare(csvInput, suggestedQas);
 
     const csvWriter = createCsvWriter({
-        path: 'benchmark/ouput.csv',
+        path: 'benchmark/output.csv',
         header: [
             { id: 'question', title: 'Question' },
             { id: 'correctAnswer', title: 'Correct Answer' },
